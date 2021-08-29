@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #313131;
+
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+}
+h3{
+    font-size: 20px;
+}
+p,span,#filter a{
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow:5px 5px 10px #e6e7e9;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+#logo{
+    text-align: center;
+    width: 10%;
+}
+#logo a{
+    padding: 30px;
+    font-weight: bold;
+}
+nav{
+    margin-right: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+ul li{
+    list-style-type: none;
+    font-size: 13px !important;
+    padding: 20px;
+}
+nav ul li:hover,#logo a:hover{
+    background-color: #e6e7e9;
+    transition: 0.5s ease-out;
+}
+ul li a{
+    padding: 15px;
+    font-size: 17px;
+}
+a{
+    color: #313131;
+    text-decoration: none;
+}
+.proizvodi{
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.prflex{
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+#filter{
+    margin-top: 40px;
+    width: 20%;
+    padding-left: 10px;
+}
+.proizvod{
+    width: 30%;
+    text-align: right;
+    margin: 10px;
+}
+
+.kupi{
+    padding: 10px 20px;
+    background-color: silver;
+    color: #ffffff;
+    margin-left:45% !important;
+
+}
+
+.proizvoddrzac img{
+    background-color: #e6e7e9;
+    padding: 15px 0px;
+    width: 100%;
+}
+.ukloni{
+    color:red;
+}
+.tekstdrzac{
+    text-align: left;
+}
+#opispr{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#opispr img{
+    margin: 10px 0px;
+}
+.brend{
+    width: 40%;
+}
+.brend img{
+    width: 100%;
+}
+#drzac{
+    display: flex;
+    padding: 0 15px;
+}
+#filter input[type='search'],#filter input[value]{
+    padding: 2px;
+    color: #313131;
+    font-size: 20px;
+}
+#sort{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+}
+#log{
+    padding: 80px 30px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logreg{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.reg{
+    width: 30%;
+}
+#logreg input[type='text'],#logreg input[type='password'],#admin input[type='text'],#admin select{
+    width: 90%;
+    border: 0px;
+    border-bottom: 1px solid #000;
+}
+#logreg input[type='button'],#admin input[type='button']{
+    width: 40%;
+    padding: 3px;
+}
+[id^=greska]{
+    color: #ff5151;
+}
+#logreg p:nth-of-type(even),#regUspeh{
+    font-size: 18px;
+}
+#slika{
+    width: 50px;
+    margin: 5px;
+}
+#slika img{
+    width: 100%;
+    border-radius: 5px;
+}
+#korisnik{
+    display: flex;
+    align-items: center;
+}
+#admin{
+    display: flex;
+    justify-content: space-between;
+}
+#navigacija{
+    width: 20%;
+    border-right: 1px solid #adadad;
+}
+#drzacadmin{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#navigacija ul{
+    flex-direction: column;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}
+td{
+    width: 20%;
+}
+td,th{
+    padding: 5px;
+}
+table{
+    font-size: 20px;
+}
+table tbody tr:nth-child(odd){
+    background-color: rgba(185, 173, 178, 0.2);
+}
+table tbody tr:hover{
+    background-color: rgba(202, 187, 192,0.7);
+}
+table thead{
+    background-color: #adadad;
+}
+.delete{
+    color: #ff0000;
+}
+.update{
+    color: rgb(168, 250, 44);
+}
+#formaupdate{
+    width: 50%;
+    margin: 0px auto;
+}
+#formaupdate img{
+    width: 100%;
+}
+#formaupdate input[type=button]{
+    margin: 0px auto;
+}
+#admin select{
+    padding: 3px;
+    font-size: 20px;
+}
+#autor{
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+}
+#autor img{
+    width: 100%;
+}
+#naslovna{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#naslovna img{
+    width: 100%;
+}
+.tekst{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blok{
+    width: 20%;
+}
+.blok .fas{
+    font-size: 30px;
+    margin: 3px;
+}
+.blok{
+    padding: 15px 15px;
+    margin: 30px 0px;
+    width: 20%;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(56, 63, 58, 0.226);
+}
+.drugi{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(148, 137, 147, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style-type: none;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+footer i{
+    font-size: 30px;
+}
+.info{
+    width: 35%;
+}
+.info input,.info textarea{
+    width: 80%;
+}
